@@ -151,9 +151,9 @@ MW151rm3G是LAN/WAN共用一个网口，OpenWrt初始配置成LAN口，为了第
 
 再重启下路由器，如果一切顺利，用ifconfig命令可以看到多了一个pptp-vpn的接口，并且流量不为0。
 
-### 部署FreeRouterV2
+## 部署FreeRouterV2
 
-这个参考[FreeRouterV2的项目手册](https://github.com/lifetyper/FreeRouter_V2/blob/master/FreeRouterV2_HandBook.pdf)进行就可以了。而且手册里不仅仅只有部署，把原理都讲得很明白了，据作者说是按文科生也能看懂的标准写的。
+这个参考[FreeRouterV2的项目手册](https://github.com/lifetyper/FreeRouter_V2/blob/master/FreeRouterV2_HandBook.pdf)进行就可以了。而且手册里不仅仅只有部署，把原理都讲得很透了了，据作者说是按文科生也能看懂的标准写的。
 
 ## TODO
 增加3G接口配置，实现3G to WIFI自动翻墙。
